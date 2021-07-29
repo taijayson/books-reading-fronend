@@ -1,7 +1,6 @@
 import axios from 'axios';
 
-https: axios.defaults.baseURL =
-  'https://books-reading-backend.herokuapp.com/api';
+https: axios.defaults.baseURL = 'https://books-reading-app.herokuapp.com/api';
 const setToken = token =>
   (axios.defaults.headers.common.Authorization = `Bearer ${token}`);
 
